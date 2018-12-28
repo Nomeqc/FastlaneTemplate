@@ -1,0 +1,22 @@
+# 存储证书和描述文件的git repo地址
+# git_url ENV['GIT_MATCH_URL']
+
+# 证书和描述文件所在的Git 分支名称
+# git_branch ENV['GIT_BRANCH_NAME']
+
+# App Bundle ID
+app_identifier ENV['APP_IDENTIFIER']
+
+# 证书类型 支持appstore, adhoc, enterprise, 或 development
+# type ENV['APP_RELEASE_TYPE']
+
+# Apple 开发者账号
+username ENV['APPLE_ID']
+
+# type "development" # The default type, can be: appstore, adhoc, enterprise or development
+
+# app_identifier ["tools.fastlane.app", "tools.fastlane.app2"]
+# username "user@fastlane.tools" # Your Apple Developer Portal username
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options
